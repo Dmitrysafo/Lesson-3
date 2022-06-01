@@ -1,8 +1,7 @@
 ## Напишите программу, которая определяет, являются ли три заданных числа (в указанном порядке) последовательными членами арифм.прогресии
-a = int(input())
-b = int(input())
-c = int(input())
-if b-a==c-b:
-    print("YES")
+num1 = int(input())
+num2 = int(input())
+if num1<num2:
+    print(num1)
 else:
-     print("NO")   
+    print(num2)      
